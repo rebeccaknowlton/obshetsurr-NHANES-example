@@ -148,3 +148,4 @@ colnames(formatted_table) <- c("Patient ID", "Age", "Sex", "Total Cholesterol (m
 # Save formatted table
 print(formatted_table)
 latex.table(as.matrix(formatted_table), "NHANES_table", caption = "", rownames = F)
+
